@@ -30,9 +30,9 @@ function browserSync(done) {
   browsersync.init({
     server: {
       baseDir: "./"
-    }
-    // },
-    // port: 3000
+    },
+    port: process.env.PORT || 3000,
+    open: false
   });
   done();
 }
@@ -123,10 +123,19 @@ function watchFiles() {
   gulp.watch("./**/*.html", browserSyncReload);
 }
 
+// gulp.task('serveprod', function() {
+//   connect.server({
+//     root: "./",
+//     port: process.env.PORT || 5000, // localhost:5000
+//     livereload: false
+//   });
+// });
+
 // Define complex tasks
 const vendor = gulp.series(clean, modules);
 const build = gulp.series(vendor, gulp.parallel(css, js));
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
+const serve = gulp.series(build, browserSync);
 
 // Export tasks
 exports.css = css;
@@ -135,4 +144,5 @@ exports.clean = clean;
 exports.vendor = vendor;
 exports.build = build;
 exports.watch = watch;
+exports.serve = serve;
 exports.default = build;
