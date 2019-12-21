@@ -37,9 +37,15 @@ a:hover {
   color: #3ec3eb !important;
 }
 
+.alt-purple {
+  color: #55416D !important;
+}
+
+.alt-red {
+  color: #953735 !important;
+}
+
 .iconRow {
-  display: flex;
-  /* make the row a flex container */
   align-items: center;
   /* vertically center each flex item in the container */
   padding-top: 1em;
@@ -54,6 +60,10 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+h2 {
+  margin-top: 15px;
 }
 
 .page-section {

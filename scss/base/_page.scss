@@ -31,8 +31,16 @@ a {
     color: $baseball-blue !important;
 }
 
+.alt-purple {
+    color: $alt-purple !important;
+}
+
+.alt-red {
+    color: $alt-red !important;
+}
+
 .iconRow {
-  display: flex;  /* make the row a flex container */
+  // display: flex;  /* make the row a flex container */
   align-items: center; /* vertically center each flex item in the container */
   padding-top: 1em;
   padding-bottom: 1em;
@@ -46,6 +54,10 @@ h5,
 h6 {
   font-weight: 700;
   @include heading-font;
+}
+
+h2 {
+  margin-top: 15px;
 }
 
 .page-section {
