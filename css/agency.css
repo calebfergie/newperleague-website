@@ -25,6 +25,27 @@ a:hover {
   color: #fed136 !important;
 }
 
+.football-green {
+  color: #40b450 !important;
+}
+
+.basketball-orange {
+  color: #fd9226 !important;
+}
+
+.baseball-blue {
+  color: #3ec3eb !important;
+}
+
+.iconRow {
+  display: flex;
+  /* make the row a flex container */
+  align-items: center;
+  /* vertically center each flex item in the container */
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 h1,
 h2,
 h3,

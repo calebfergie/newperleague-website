@@ -19,6 +19,25 @@ a {
   color: $primary !important;
 }
 
+.football-green {
+    color: $football-green !important;
+}
+
+.basketball-orange {
+    color: $basketball-orange !important;
+}
+
+.baseball-blue {
+    color: $baseball-blue !important;
+}
+
+.iconRow {
+  display: flex;  /* make the row a flex container */
+  align-items: center; /* vertically center each flex item in the container */
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 h1,
 h2,
 h3,
