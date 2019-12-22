@@ -615,6 +615,28 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+.affiliate {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.affiliate img {
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+.affiliate h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-size: 1em;
+}
+
+.affiliate p {
+  margin-top: 0;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
