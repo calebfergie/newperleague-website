@@ -3,7 +3,7 @@
     "name": "startbootstrap-agency",
     "version": "5.2.2",
     "scripts": {
-        "start": "node_modules/.bin/gulp serve",
+        "start": "node_modules/.bin/gulp build",
         "local": "node_modules/.bin/gulp"
     },
     "description": "Agency is a one page HTML theme for Bootstrap.",
