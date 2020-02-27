@@ -146,7 +146,7 @@ function watchFiles() {
 const vendor = gulp.series(clean, modules);
 const build = gulp.series(vendor, gulp.parallel(css, js));
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSyncLocal));
-const serve = gulp.series(build, browserSync);
+const serve = gulp.series(vendor, browserSync);
 
 // Export tasks
 exports.css = css;
