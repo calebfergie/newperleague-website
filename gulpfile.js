@@ -156,4 +156,4 @@ exports.vendor = vendor;
 exports.build = build;
 exports.watch = watch;
 exports.serve = serve;
-exports.default = build;
+exports.default = watch;

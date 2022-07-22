@@ -3,7 +3,7 @@
     "name": "startbootstrap-agency",
     "version": "5.2.2",
     "scripts": {
-        "start": "node_modules/.bin/gulp build",
+        "start": "node_modules/.bin/gulp serve",
         "local": "node_modules/.bin/gulp"
     },
     "description": "Agency is a one page HTML theme for Bootstrap.",
@@ -23,7 +23,8 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "David Miller (http://davidmiller.io/)",
+        "Caleb Ferguson (https://calebfergie.com/)"
     ],
     "repository": {
         "type": "git",
