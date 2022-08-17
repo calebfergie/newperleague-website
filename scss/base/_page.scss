@@ -39,6 +39,31 @@ a {
     color: $alt-red !important;
 }
 
+.white {
+    color: $white !important;
+}
+
+.gray {
+    color: $gray-200 !important;
+}
+
+// Styling for the masthead
+section.stonks {
+  text-align: center;
+  background-image: url('../img/backgrounds/stonks.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+div.card {
+  display: inline-flex;
+  padding-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .iconRow {
   // display: flex;  /* make the row a flex container */
   align-items: center; /* vertically center each flex item in the container */

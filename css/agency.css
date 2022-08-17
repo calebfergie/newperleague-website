@@ -44,6 +44,30 @@ a:hover {
   color: #953735 !important;
 }
 
+.white {
+  color: #fff !important;
+}
+
+.gray {
+  color: #e9ecef !important;
+}
+
+section.stonks {
+  text-align: center;
+  background-image: url("../img/backgrounds/stonks.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+div.card {
+  display: inline-flex;
+  padding-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .iconRow {
   align-items: center; /* vertically center each flex item in the container */
   padding-top: 1em;
