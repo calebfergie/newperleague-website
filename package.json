@@ -36,7 +36,7 @@
         "bootstrap": "4.3.1",
         "jquery": "3.5.0",
         "jquery.easing": "^1.4.1",
-        "node-sass": "^7.0.1",
+        "node-sass": "^9.0.0",
         "sass": "^1.53.0"
     },
     "devDependencies": {
